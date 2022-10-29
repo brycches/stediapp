@@ -87,6 +87,7 @@ return(
             console.log("status", loginResponse.status)
 
             
+
             if(loginResponse.status == 200){
               const sessionToken = await loginResponse.text();
               console.log('Session Token', sessionToken)
